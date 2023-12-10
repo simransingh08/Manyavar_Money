@@ -4,6 +4,10 @@
     box-sizing: border-box;  
 }
 
+body{
+  background-color: #F8ECD7;
+}
+
 .header1{
     height: 35px;
     background-color: #511D00;
@@ -168,9 +172,46 @@ swiper-container {
   .wedding h5{
      display:inline;
   } 
-
-
- 
   .arrow_icon{
     margin-left: 20px;
   }
+
+  .sticker img{
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+  
+  }
+  .vibes{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    background-color: #fff;
+  }
+
+  .heading{
+    margin-top: 20px;
+    font-family: var(--font-playfair),sans-serif;
+    font-size: 30px;
+    margin-left: 5px;
+  }
+
+  .collection .images{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .collection .images .size img{
+    margin-top: 20px;
+    height: 400px;
+    width: 350px;
+  }
+
+  .collection .images .size h2,h3{
+    text-align: center;
+    margin-top: 8px;
+  }
+  .collection .images .size h2{
+    margin-top: 11px;
+  }
+  
