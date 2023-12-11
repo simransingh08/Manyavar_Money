@@ -214,4 +214,22 @@ swiper-container {
   .collection .images .size h2{
     margin-top: 11px;
   }
+
+  .wedding_gif {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .gif .wedding_gif .try{
+    height: 100px;
+    width: 120px;
+    margin-top: 70px;
+  }
+
+  .next{
+    background-color:#F8ECD7 ;
+    margin-top: 30px;
+  }
+
   
