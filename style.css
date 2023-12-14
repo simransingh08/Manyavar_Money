@@ -1,245 +1,246 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;  
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-  background-color: #F8ECD7;
+body {
+  background-color: #f8ecd7;
 }
 
-.header1{
-    height: 35px;
-    background-color: #511D00;
-    color: white;
-    text-align: center;
+.header1 {
+  height: 35px;
+  background-color: #511d00;
+  color: white;
+  text-align: center;
 }
 
-.header1 h4{
-    padding: 5px 0;
+.header1 h4 {
+  padding: 5px 0;
 }
 
-.header2{
-    height: 50px;
-    background-color: #F8ECD7;
-    text-align: center;
+.header2 {
+  height: 50px;
+  background-color: #f8ecd7;
+  text-align: center;
 }
 
-.header3{
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: space-around;
-    background-color: #F8ECD7;
-    align-items: center;
+.header3 {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8ecd7;
+  align-items: center;
 }
-.header3 ul{
-    display: flex;
-    list-style: none;
-    position: relative;
-    top: 15px;
-    right: 120px;
-}
-
-.header3 ul li{
-    margin: 20px 5px 15px 25px;
-    font-weight: 600;
-    font-size: 16px;
-    padding:5px;
-    
+.header3 ul {
+  display: flex;
+  list-style: none;
+  position: relative;
+  top: 15px;
+  right: 120px;
 }
 
-.header3 ul li:hover{
-    border-bottom: 3px solid #ec641c ;
-
-}
-.right{
-    display: flex;
-    align-items: center;
-    position: relative;
-    left: 80px;
-    top: 17px;
-    
-
-}
-.right .fa-location-dot{
-    margin: 3px 5px;
+.header3 ul li {
+  margin: 20px 5px 15px 25px;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px;
 }
 
-.right .search input{
-padding: 15px 50px;
-border: none;
-font-size: 11px;
-position: relative;
-font-size:10px;
-width:250px;
-
+.header3 ul li:hover {
+  border-bottom: 3px solid #ec641c;
+}
+.right {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 80px;
+  top: 17px;
+}
+.right .fa-location-dot {
+  margin: 3px 5px;
 }
 
-.right .search input:focus{
-    outline: 1px solid rgb(245, 31, 7);
-    box-shadow: rgba(229, 8, 8, 0.35) 0px 5px 15px;
+.right .search input {
+  padding: 15px 50px;
+  border: none;
+  font-size: 11px;
+  position: relative;
+  font-size: 10px;
+  width: 250px;
 }
 
-::placeholder{
-    position: relative;
-    left:-10px;
+.right .search input:focus {
+  outline: 1px solid rgb(245, 31, 7);
+  box-shadow: rgba(229, 8, 8, 0.35) 0px 5px 15px;
 }
 
-.right .fa-magnifying-glass{
-   position: relative;
-   top:2px;
-   left:35px;
-   z-index:5;
-    
+::placeholder {
+  position: relative;
+  left: -10px;
 }
 
-.fa-xmark{
-    position: relative;
-    right: 30px;
-    top:2px;
+.right .fa-magnifying-glass {
+  position: relative;
+  top: 2px;
+  left: 35px;
+  z-index: 5;
 }
 
-.icon{
-   width:110px;
-   display: flex;
-   justify-content: space-around;
+.fa-xmark {
+  position: relative;
+  right: 30px;
+  top: 2px;
 }
 
 .icon {
-    font-size: 20px;
-    position: relative;
-    left: 20px;
+  width: 110px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  font-size: 20px;
+  position: relative;
+  left: 20px;
 }
 
 swiper-container {
-    width: 100%;
-    height: 100%;
-  }
+  width: 100%;
+  height: 100%;
+}
 
-  swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-  .present_details{
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    top: -100px;
-    z-index: 6;
-    color: white;
+.present_details {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -100px;
+  z-index: 6;
+  color: white;
+}
 
-  }
+.present_details h1 {
+  font-size: 50px;
+  margin-top: -150px;
+  left: 80px;
+}
 
-  .present_details h1{
-    font-size:50px;
-    margin-top: -150px;
-    left: 80px;
-  }
+.present_details .hero_section {
+  font-size: 20px;
+}
 
-  
-  .present_details  .hero_section{
-    font-size:20px;
-  }
+.hero_section {
+  position: relative;
+  margin-top: -250px;
+  color: #92827d;
+}
+.wedding {
+  margin: 20px 25px;
+  padding: 20px 50px;
+  /* text-align: center; */
+}
 
-  .hero_section{
-    position: relative;
-    margin-top: -250px;
-    color:#92827D;
-  }
-  .wedding{
-    margin: 20px 25px;
-    padding: 20px 50px;
-    /* text-align: center; */
-  }
+.wedding:hover {
+  background-color: #ec641c;
+  color: #ffffff;
+}
 
-  .wedding:hover{
-    background-color: #ec641c;
-    color: #ffffff;
-  }
+.wedding h5 {
+  display: inline;
+}
+.arrow_icon {
+  margin-left: 20px;
+}
 
-  .wedding h5{
-     display:inline;
-  } 
-  .arrow_icon{
-    margin-left: 20px;
-  }
+.sticker img {
+  height: 100px;
+  width: 100px;
+  margin-left: 100px;
+}
+.vibes {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+  background-color: #fff;
+}
 
-  .sticker img{
-    height: 100px;
-    width: 100px;
-    margin-left: 100px;
-  
-  }
-  .vibes{
-    display: flex;
-    justify-content: center;
-    margin-top: -50px;
-    background-color: #fff;
-  }
+.heading {
+  margin-top: 20px;
+  font-family: var(--font-playfair), sans-serif;
+  font-size: 30px;
+  margin-left: 5px;
+}
 
-  .heading{
-    margin-top: 20px;
-    font-family: var(--font-playfair),sans-serif;
-    font-size: 30px;
-    margin-left: 5px;
-  }
+.collection .images {
+  display: flex;
+  justify-content: space-around;
+}
 
-  .collection .images{
-    display: flex;
-    justify-content: space-around;
-  }
+.collection .images .size img {
+  margin-top: 20px;
+  height: 400px;
+  width: 350px;
+}
 
-  .collection .images .size img{
-    margin-top: 20px;
-    height: 400px;
-    width: 350px;
-  }
+.collection .images .size h2,
+h3 {
+  text-align: center;
+  margin-top: 8px;
+}
+.collection .images .size h2 {
+  margin-top: 11px;
+}
 
-  .collection .images .size h2,h3{
-    text-align: center;
-    margin-top: 8px;
-  }
-  .collection .images .size h2{
-    margin-top: 11px;
-  }
+.wedding_gif {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
 
-  .wedding_gif {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-  }
+.gif .wedding_gif .try {
+  height: 100px;
+  width: 120px;
+  margin-top: 70px;
+}
 
-  .gif .wedding_gif .try{
-    height: 100px;
-    width: 120px;
-    margin-top: 70px;
-  }
+.next {
+  background-color: #f8ecd7;
+  margin-top: 30px;
+}
 
-  .next{
-    background-color:#F8ECD7 ;
-    margin-top: 30px;
-  }
+.arrivals .header3 {
+  margin-top: -10px;
+  margin-left: 220px;
+}
 
-  .arrivals .header3{
-    margin-top: -10px;
-    margin-left: 220px;
-  }
+.collection .images .second .size {
+  width: 50px;
+}
 
-  .collection .images .second .size{
-    width: 50px;
-  }
+.spotlight {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #F8ECD7;
+}
 
-
-  
+.ram img{
+  margin-top: 30px;
+  width: 100%;
+}
